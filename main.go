@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+  "fmt"
+  "app/samples"
+)
 
 func main(){
-  fmt.Println("TDD")
+  fmt.Println(samples.Fib(10))
 }

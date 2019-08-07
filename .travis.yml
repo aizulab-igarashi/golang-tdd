@@ -2,11 +2,6 @@ language: go
 
 go:
   - 1.12.5
-  - master
-os:
-  - linux
-  - osx
-dist: trusty
 sudo: false
 install: true
 script:
