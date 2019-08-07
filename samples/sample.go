@@ -1,5 +1,10 @@
 package samples
 
 func Fib(n int) int {
-  return n
+  switch(n){
+  case 0, 1:
+    return n
+  default:
+    return fib(n-1) + fib(n-2)
+  }
 }
