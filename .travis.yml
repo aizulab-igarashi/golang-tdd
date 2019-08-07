@@ -4,4 +4,4 @@ go:
   - 1.12.5
 
 script:
-  - env GO111MODULE=on go test -cover -v ./samples
+  - go test -cover -v ./samples
