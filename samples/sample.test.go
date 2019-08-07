@@ -2,9 +2,9 @@ package samples
 
 import "testing"
 
-func TestFizzBuzz(t *testing.T){
-  result := FizzBuzz(5)
-  expected := "buzz"
+func TestFib(t *testing.T){
+  result := Fib(8)
+  expected := 21
   if result != expected {
     t.Fatal("failed")
   }
