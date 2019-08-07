@@ -2,6 +2,6 @@ language: go
 
 go:
   - 1.12.5
-
+install: true
 script:
-  - env GO111MODULE=on go test ./samples
+  - env GO111MODULE=on go test -cover -v ./samples
